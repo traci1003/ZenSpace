@@ -1,6 +1,7 @@
 # ZenSpace
 
 ZenSpace is a minimalist mood tracking and journaling web application with beautiful animations and data visualization.
+https://zen-mood-1-traci1003.replit.app/auth
 
 ## Features
 
