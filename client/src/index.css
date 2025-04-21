@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  /* Custom CSS Variables for Mood Colors */
+  :root {
+    --tw-color-mood-calm: #22c55e;
+    --tw-color-mood-happy: #facc15;
+    --tw-color-mood-neutral: #94a3b8;
+    --tw-color-mood-sad: #60a5fa;
+    --tw-color-mood-angry: #ef4444;
+  }
+  
+  /* Mood selection styling */
+  .mood-icon {
+    @apply cursor-pointer;
+  }
+
+  .mood-icon.selected {
+    @apply ring-2 ring-offset-2;
+  }
+}
